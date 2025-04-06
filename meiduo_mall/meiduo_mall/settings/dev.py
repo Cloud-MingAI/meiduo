@@ -1,3 +1,4 @@
+# 开发阶段配置
 """
 Django settings for meiduo_mall project.
 
