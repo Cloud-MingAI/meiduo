@@ -1,0 +1,11 @@
+INFO 2025-04-06 09:52:40,746 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-04-06 09:53:30,404 basehttp 212 "GET / HTTP/1.1" 200 10664
+WARNING 2025-04-06 09:53:30,917 log 241 Not Found: /favicon.ico
+WARNING 2025-04-06 09:53:30,918 basehttp 212 "GET /favicon.ico HTTP/1.1" 404 2115
+INFO 2025-04-06 10:02:26,547 autoreload 266 /home/yly/桌面/meiduo/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2025-04-06 10:02:27,644 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-04-10 22:36:44,643 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-04-10 22:43:28,546 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-04-10 22:43:54,015 autoreload 668 Watching for file changes with StatReloader
+INFO 2025-04-10 22:46:35,180 autoreload 266 /home/yly/桌面/meiduo/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2025-04-10 22:46:36,019 autoreload 668 Watching for file changes with StatReloader
