@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'rest_framework' # DRF注册
+    'rest_framework', # DRF注册
+    'users.apps.UsersConfig',
 ]
 
 MIDDLEWARE = [
@@ -82,7 +83,7 @@ WSGI_APPLICATION = 'meiduo_mall.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '127.0.0.1',  # 数据库主机
+        'HOST': 'localhost',  # 数据库主机
         'PORT': 3306,  # 数据库端口
         'USER': 'meiduo',  # 数据库用户名
         'PASSWORD': 'Meiduo123#',  # 数据库用户密码
@@ -199,3 +200,6 @@ REST_FRAMEWORK = {
     # 异常处理
     'EXCEPTION_HANDLER': 'meiduo_mall.utils.exceptions.exception_handler',
 }
+
+# 修改Django认证系统的用户模型类
+AUTH_USER_MODEL = 'users.User'
